@@ -28,16 +28,6 @@ cc_prebuilt_library_shared {
     prefer: true,
 }
 
-cc_prebuilt_library_static {
-    name: "libandroid.hardware.light-V2-ndk",
-    vendor_available: true,
-    product_available: true,
-    recovery_available: true,
-    export_include_dirs: ["include"],
-    srcs: ["lib/libandroid.hardware.light-V2-ndk.a"],
-    prefer: true,
-}
-
 cc_prebuilt_binary {
     name: "android.hardware.light-service.x86",
     vendor: true,
