@@ -1,0 +1,25 @@
+{
+	"provideLibs": [	
+		    "android.hardware.light-V2-ndk-x86_64-v2.so",
+		    "android.hardware.light-V2-ndk.so",
+		    "libandroid.hardware.light-V2-ndk-x86_64-v2.so",
+		    "libandroid.hardware.light-V2-ndk.so",
+		    "libdummy_binary_android.hardware.light-service.x86-x86_64-v2.so",
+		    "libdummy_binary_android.hardware.light-service.x86.so",
+		    "libdummy_ext_liblights-x86_64-v2.so",
+		    "libdummy_ext_liblights.so",
+		    "libdummy_headers_ext_liblights-x86_64-v2.so",
+		    "libdummy_headers_ext_liblights.so"
+	],
+	"requireLibs": [	
+		    "libbase.so",
+		    "libbinder_ndk.so",
+		    "libc++.so",
+		    "libc.so",
+		    "libcutils.so",
+		    "libdl.so",
+		    "liblog.so",
+		    "libm.so"
+	],
+	"visible": true
+}

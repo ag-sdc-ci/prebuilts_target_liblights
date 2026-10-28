@@ -1,0 +1,6 @@
+shadow prebuilt repo: liblights (target)
+  upstream: https://github.com/android-generic/platform_hardware_liblights
+  api-level: 34 (branch 34-20261028)
+  blobs: extractive APEX payload flattened to root (no apex container retained)
+  payload: root bin/, etc/, include/, lib/ + extractive Android.bp
+  date: 2026-10-28
